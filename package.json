@@ -1,0 +1,23 @@
+{
+  "name": "git-webhook",
+  "version": "1.0.0",
+  "description": "Webhook to capture push and pull",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawsonlobo/git-webhook.git"
+  },
+  "author": "Dawson Lobo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dawsonlobo/git-webhook/issues"
+  },
+  "homepage": "https://github.com/dawsonlobo/git-webhook#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "express": "^4.21.2"
+  }
+}
