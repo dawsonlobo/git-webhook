@@ -18,6 +18,7 @@
   "homepage": "https://github.com/dawsonlobo/git-webhook#readme",
   "dependencies": {
     "child_process": "^1.0.2",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2"
   }
 }

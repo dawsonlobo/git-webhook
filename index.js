@@ -1,6 +1,8 @@
 const express = require('express');
 const { exec } = require('child_process');
+const dotenv = require('dotenv');
 
+dotenv.config();
 const app = express();
 // Middleware to parse JSON body
 app.use(express.json());
