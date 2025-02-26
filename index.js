@@ -26,4 +26,4 @@ app.post('/vetms-bk/git-webhook', (req, res) => {
     }
 });
 
-app.listen(9000, () => console.log('Listening for GitHub Webhooks on port 9000'));
+app.listen(process.env.PORT, () => console.log(`Listening for GitHub Webhooks on port ${process.env.PORT}`));
